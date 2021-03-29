@@ -26,6 +26,7 @@
         - hub # to have access to github functionality from the command line
         - zsh
         - ssh
+        - whois
         - scribus # to make simple edits to pdfs
       state: present
     tags:

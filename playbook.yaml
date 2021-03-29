@@ -28,6 +28,17 @@
         - ssh
         - whois
         - scribus # to make simple edits to pdfs
+        - ubuntu-restricted-extras
+      update-cache: true
+      state: present
+    tags:
+      - software 
+  - name: Install video codecs to play OBS recordings
+    package:
+      name: 
+        - libavcodec58
+        - ffmpeg
+      update-cache: true
       state: present
     tags:
       - software 
@@ -60,6 +71,7 @@
       - libreoffice
       - whatsdesk
       - pomotroid
+      - vlc
     tags:
       - software 
   - name: Add the flathub flatpak repository remote to the user installation

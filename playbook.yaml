@@ -72,6 +72,9 @@
       - whatsdesk
       - pomotroid
       - vlc
+      - gimp
+      - inkscape
+      - shutter
     tags:
       - software 
   - name: Add the flathub flatpak repository remote to the user installation
